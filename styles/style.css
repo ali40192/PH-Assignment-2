@@ -54,6 +54,7 @@
 }
 
 
+
 /*nav related styles*/
 .navbar {
     display: flex;
@@ -143,6 +144,61 @@ width: 80%;
 }
 
 
+/*flower lover*/
+.flower-store {
+    margin: 150px auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    
+}
+.flower-store h1 {
+    width: 80%;
+}
+
+.flower-store ul {
+    width: 80%;
+}
+
+
+.store-items {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.store-item {
+    margin-top: 50px;
+}
+.store-img , .store-contant {
+    flex: 1;
+}
+
+.store-img img {
+    max-width: 95%;
+    display: block;
+}
+.store-contant {
+ max-width: 95%;
+}
+
+
+
+.store-sec {
+    position: relative;
+}
+
+.store-logo {
+    width: 220px;
+    position: absolute;
+    top: -90px;
+    left: 35%;
+}
+
+
+
+
+
+
 
 
 
@@ -153,7 +209,7 @@ width: 80%;
 
 
 @media screen and (max-width:576px) {
- .nav-item {
+ .nav-item , .store-logo {
     display: none;
  }
 
@@ -174,4 +230,21 @@ width: 80%;
     padding: 0 20px;
     grid-template-columns: repeat(2, 1fr);
  }
+
+ .flower-store {
+    flex-direction: column;
+    padding:0 20px;
+    justify-content: center;
+ }
+
+.store-item {
+    margin-top:10px;
+}
+.flower-store h1 {
+    width: 100%;
+}
+flower-store ul {
+    width: 100%;
+}
+
 }
