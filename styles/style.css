@@ -322,9 +322,34 @@ width: 80%;
 
 
 
+.footer {
+    margin: 50px auto;
+    display: grid;
+    align-items: center;
+    gap: 100px;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+}
 
+.footer-links  {
+    list-style: none;
+    display: grid;
+    gap: 30px;
 
+}
+.footer-links a {
+    text-decoration: none;
+}
 
+.footer-logo {
+    display: grid;
+    gap: 15px;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 
 
@@ -395,6 +420,20 @@ flower-store ul {
 .join-us {
  margin: auto 0;
 }
+
+.footer {
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px 50px;
+    gap: 30px;
+}
+
+.footer-logo {
+    position:relative;
+    gap: 0;
+}
+
+
+
 
 }
 
