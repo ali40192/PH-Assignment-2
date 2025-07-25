@@ -283,6 +283,45 @@ width: 80%;
 
 
 
+/*join us section styles*/
+
+.join-us {
+    width: 100%;
+    height: 500px;
+    margin: 100px 0;
+    background-image: url('../B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.join {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;align-items: center;
+} 
+
+.join input {
+    width: 500px;
+    height: 2.5rem;
+    padding: 10px 10px;
+}
+   #join-btn {
+    font-size: .8rem;
+    padding: 12px 20px;
+   }
+
+
+   /*footer*/
+
+
+
 
 
 
@@ -350,5 +389,13 @@ flower-store ul {
 .hard-sec p {
     width: 80%;
 }
+.join {
+    max-width: 70%;
+} 
+.join-us {
+ margin: auto 0;
+}
 
 }
+
+
